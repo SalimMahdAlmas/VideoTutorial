@@ -61,6 +61,7 @@ public class SQLiDetector {
                 }else {
                     System.out.println("Site is not vulnerable");
                 }
+                bufferedReader.close();
             }
         } catch (MalformedURLException e) {
             System.out.println("Try to enter valid link");
